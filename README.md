@@ -6,7 +6,7 @@ This repository documents the publication history of projects in the ecosystem t
 
 ## Release Records
 
-### CMLL — Version 1.0.0
+### CMLL - Version 1.0.0
 
 The historical release record for **CMLL 1.0.0**, a release in the MacoraOne technology ecosystem.
 
@@ -59,4 +59,4 @@ MacoraOne technology ecosystem
 
 ---
 
-*MacoraOne Records — a historical archive of software releases, projects, and version milestones.*
+*MacoraOne Records - a historical archive of software releases, projects, and version milestones.*
