@@ -1,51 +1,70 @@
 # MacoraOne Records
 
-**MacoraOne Records** is the historical archive of software releases, version milestones, and preserved release records from the MacoraOne technology ecosystem, created by **Dominex Macedon**.
+**MacoraOne Records** is the text-based historical index of software releases, version milestones, and notable project updates across the MacoraOne technology ecosystem, created by **Dominex Macedon**.
 
-This repository documents the publication history of projects in the ecosystem through visual release records. Each record preserves a project's name, release version, publication details, and other identifying information as an archival reference.
+This repository keeps a readable record of what has been released and what has changed. Release artwork is preserved in the project folders, but this README intentionally does not embed or load PNG files.
 
-## Release Records
+## Latest Updates
 
-### CMLL - Version 1.0.0
+### greenServeFE — Version 1.0.6
 
-The historical release record for **CMLL 1.0.0**, a release in the MacoraOne technology ecosystem.
+<badge>Latest release</badge>
 
-![CMLL version 1.0.0 historical release record](CMLL/CMLL-v1.0.0-record.png)
+**Published:** November 4, 2026 · 6:15 AM PST  
+**Implementation:** C  
+**Architecture:** Compiler and Virtual Machine  
+**Source extension:** `.gsve`
 
-[View the CMLL 1.0.0 release record image](CMLL/CMLL-v1.0.0-record.png)
+**New capability — `interact()`**
+
+- Added `interact()` as a core built-in function for receiving text input from users.
+- Supports an optional prompt.
+- Reads one line from standard input and returns the entered value as a string.
+- Returns `null` when standard input reaches end-of-file (EOF).
+- Flushes the prompt before waiting for input.
+- Includes a dedicated example and test program.
+
+Project: [greenServeFE source repository](https://github.com/dominexmacedon-docs/greenServeFE-build)
 
 ### MacoraOne — Version 1.0.1
 
-The historical release record for **MacoraOne 1.0.1**, the native C11 command-line controller and management tool for the MacoraOne technology ecosystem.
+**Published:** October 29, 2026 · 3:48 AM PDT
 
-Published: **October 29, 2026 · 3:48 AM PDT**
+MacoraOne 1.0.1 is the native C11 command-line controller and management tool for the MacoraOne technology ecosystem.
 
-![MacoraOne version 1.0.1 historical release record](MacoraOne/MacoraOne-v1.0.1-record.png)
+Project: [MacoraOne source repository](https://github.com/MacoraOne/MacoraOne)
 
-[View the MacoraOne 1.0.1 release record image](MacoraOne/MacoraOne-v1.0.1-record.png)
+### CMLL — Version 1.0.0
 
-### greenServeFE — Version 1.0.4
+**Published:** September 17, 2026 · 10:10 AM PDT
 
-The historical release record for **greenServeFE 1.0.4**, a VM-based programming language and development environment in the MacoraOne ecosystem.
+CMLL 1.0.0 marks the first published release of the CMLL programming language.
 
-![greenServeFE version 1.0.4 historical release record](greenServeFE/greenServeFE-v1.0.4-record.png)
+Project: [CMLL source repository](https://github.com/dominexmacedon-docs/CMLL)
 
-[View the greenServeFE 1.0.4 release record image](greenServeFE/greenServeFE-v1.0.4-record.png)
+## Release History
 
-## About This Archive
+| Project | Version | Publication date | Notable record |
+|---|---:|---|---|
+| greenServeFE | **1.0.6** | November 4, 2026 · 6:15 AM PST | Added the `interact()` input built-in |
+| greenServeFE | 1.0.5 | November 3, 2026 · 1:37 AM PST | Class-like objects, inheritance, fields, methods, nested data, and object utilities |
+| greenServeFE | 1.0.4 | Earlier release | Preserved release milestone |
+| MacoraOne | 1.0.1 | October 29, 2026 · 3:48 AM PDT | Native C11 CLI controller and management tool |
+| CMLL | 1.0.0 | September 17, 2026 · 10:10 AM PDT | Initial published release |
 
-MacoraOne Records serves as a central, browsable archive for release documentation across the ecosystem. It provides a visual reference for published software versions and helps preserve project history independently of individual source-code changes.
+## Archive Contents
 
-The archive may include:
+The repository retains release-record artwork and related archival files in these project directories:
 
-- Software release records and version milestones
-- Publication dates and release identification details
-- Historical images documenting individual releases
-- Records for programming languages, command-line tools, virtual machines, and developer utilities
+- `greenServeFE/` — greenServeFE release records
+- `MacoraOne/` — MacoraOne release records
+- `CMLL/` — CMLL release records
+
+The PNG files remain stored in the repository, but they are not embedded in this README. This keeps the main page focused on searchable release information, dates, versions, and feature summaries instead of automatically displaying large images.
 
 ## Projects and Source Repositories
 
-The records are archival references. For source code, implementation details, installation instructions, and current project information, visit the corresponding project repositories.
+For source code, implementation details, installation instructions, and current project information, visit the corresponding repositories:
 
 - **MacoraOne:** [github.com/MacoraOne/MacoraOne](https://github.com/MacoraOne/MacoraOne)
 - **CMLL:** [github.com/dominexmacedon-docs/CMLL](https://github.com/dominexmacedon-docs/CMLL)
@@ -59,4 +78,4 @@ MacoraOne technology ecosystem
 
 ---
 
-*MacoraOne Records - a historical archive of software releases, projects, and version milestones.*
+*MacoraOne Records — a text-first historical archive of software releases, projects, and version milestones.*
