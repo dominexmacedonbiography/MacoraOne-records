@@ -8,8 +8,7 @@ This repository keeps a readable record of what has been released and what has c
 
 ### greenServeFE — Version 1.0.6
 
-<badge>Latest release</badge>
-
+**Latest release**  
 **Published:** November 4, 2026 · 6:15 AM PST  
 **Implementation:** C  
 **Architecture:** Compiler and Virtual Machine  
